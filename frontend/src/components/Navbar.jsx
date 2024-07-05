@@ -26,6 +26,8 @@ const Navbar = () => {
       })
     
   }
+
+  
   const gotoLogin = () =>{
     navigateTo("/login")
   }
