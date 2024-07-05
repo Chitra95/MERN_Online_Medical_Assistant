@@ -13,6 +13,7 @@ import Navbar from './components/Navbar'
 import { useContext } from 'react'
 import {Context} from "./main"
 import axios from 'axios'
+import Footer from './components/Footer'
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
     const fetchUser = async() =>{
       try {
         const response = await axios.get("http://localhost:4000/api/v1/user/patient/me",{withCredentials:true});
+        
         setIsAuthenticated(true)
         setUser(response.data.user)
       } catch (error) {
@@ -42,7 +44,7 @@ const App = () => {
           <Route path='/register' element={<Register/>} />
           <Route path='login/' element={<Login/>} />
         </Routes>
-
+        <Footer/>
         <ToastContainer position='top-center'/>
 
       </Router>

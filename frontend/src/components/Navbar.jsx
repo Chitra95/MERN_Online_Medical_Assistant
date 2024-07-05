@@ -32,7 +32,10 @@ const Navbar = () => {
 
   return (
     <nav className='container'>
-      <div className='logo'>MyDoctor</div>
+      <div className='logo'>     
+              {" "}
+               <img src="/logo.png" alt="logo" className='logo-img' />
+      </div>
       <div className={show ? "navlinks showmenu" : "navLinks"}>
         <div className="links">
           <Link to={"/"}>HOME</Link>
