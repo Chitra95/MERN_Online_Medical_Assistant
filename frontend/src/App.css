@@ -449,7 +449,7 @@ nav .logo {
   font-size: 2rem;
 }
 nav .navLinks {
-  flex: 2;
+  flex: 3;
 }
 nav .navLinks {
   display: flex;
@@ -463,7 +463,7 @@ nav .navLinks .links {
 nav .navLinks .links a {
   text-decoration: none;
   color: #222;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 1.4px;
 }

@@ -16,6 +16,10 @@ import axios from 'axios'
 import Footer from './components/Footer'
 
 
+import Check from "./pages/Check"
+
+
+
 
 const App = () => {
   const {isAuthenticated, setIsAuthenticated,setUser} = useContext(Context)
@@ -43,6 +47,9 @@ const App = () => {
           <Route path='/about' element={<AboutUs/>} />
           <Route path='/register' element={<Register/>} />
           <Route path='login/' element={<Login/>} />
+          
+          <Route path='/check' element={<Check/>} />
+          
         </Routes>
         <Footer/>
         <ToastContainer position='top-center'/>

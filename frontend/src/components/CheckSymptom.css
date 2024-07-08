@@ -1,0 +1,100 @@
+/* CheckSymptom.css */
+
+/* Container styling */
+.CheckSymptom {
+    font-family: 'Arial', sans-serif;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+  }
+  
+  /* Title styling */
+  .CheckSymptom h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 20px ;
+    font-weight: 700;
+  }
+  
+  /* Symptom selection section */
+  .CheckSymptom .symptom-selection {
+    margin-bottom: 20px;
+  }
+  
+  .CheckSymptom .symptom-selection h2 {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 20px ;
+    font-weight: 700;
+    margin-left: 180px;
+  }
+  
+  .CheckSymptom .symptom-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 10px;
+  }
+  
+  .CheckSymptom .symptom-list label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .CheckSymptom .symptom-list label:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .CheckSymptom .symptom-list input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  /* Button styling */
+  .CheckSymptom .submit-button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+  }
+  
+  .CheckSymptom .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Results section */
+  .CheckSymptom .results {
+    margin-top: 20px;
+  }
+  
+  .CheckSymptom .results h2 {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .CheckSymptom .results ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .CheckSymptom .results ul li {
+    margin-bottom: 5px;
+  }
+  
+  

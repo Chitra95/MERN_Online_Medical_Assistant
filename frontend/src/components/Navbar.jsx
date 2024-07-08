@@ -41,8 +41,11 @@ const Navbar = () => {
       <div className={show ? "navlinks showmenu" : "navLinks"}>
         <div className="links">
           <Link to={"/"}>HOME</Link>
+          <Link to={"/check"}>CHECK-SYMPTOMS</Link>
           <Link to={"/appointment"}>APPOINTMENT</Link>
           <Link to={"/about"}>ABOUT US</Link>
+          
+         
 
         </div>
 
