@@ -44,6 +44,11 @@ const Navbar = () => {
           <Link to={"/check"}>CHECK-SYMPTOMS</Link>
           <Link to={"/appointment"}>APPOINTMENT</Link>
           <Link to={"/about"}>ABOUT US</Link>
+
+          {isAuthenticated 
+      ? (<Link to={"/status"}>STATUS</Link>) :""}
+
+          
           
          
 

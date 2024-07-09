@@ -17,6 +17,7 @@ import Footer from './components/Footer'
 
 
 import Check from "./pages/Check"
+import Status from "./pages/Status"
 
 
 
@@ -49,6 +50,7 @@ const App = () => {
           <Route path='login/' element={<Login/>} />
           
           <Route path='/check' element={<Check/>} />
+          <Route path='/status' element={<Status/>} />
           
         </Routes>
         <Footer/>

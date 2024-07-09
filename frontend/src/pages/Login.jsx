@@ -19,7 +19,7 @@ const Login = () => {
     try {
       const response = await axios.post(
         "http://localhost:4000/api/v1/user/login",
-        {email, password, confirmPassword, role:"Patient"},
+        {email, password, role:"Patient"},   // confirmPassword,
         {
           withCredentials:true,
           headers:{"Content-Type" : "application/json"},
@@ -54,10 +54,10 @@ const Login = () => {
         value={password} 
         onChange={(e)=>setPassword(e.target.value)} placeholder='Password' />
 
-        <input
+        {/* <input
         type="password"
         value={confirmPassword}
-        onChange={(e)=>setConfirmPassword(e.target.value)} placeholder='Confirm Password' />
+        onChange={(e)=>setConfirmPassword(e.target.value)} placeholder='Confirm Password' /> */}
        
        <div 
        style={ {gap:"10px" , justifyContent:"flex-end",
