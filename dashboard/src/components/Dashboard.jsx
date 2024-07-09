@@ -80,7 +80,7 @@ const handleUpdateStatus = async(appointmentId,status)=>{
               <img src="/doc.png" alt="docImg" />
               <div className="content">
                 <div> 
-                  <p>Hello ,</p> 
+                  <p>Hello,</p> 
                   <h5> 
                     {user && `${user.firstName} ${user.lastName}`}
                   </h5>

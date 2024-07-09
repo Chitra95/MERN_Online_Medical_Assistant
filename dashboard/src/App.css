@@ -183,7 +183,7 @@ body {
 .dashboard .banner:first-child .firstBox .content div {
   display: flex;
   align-items: center;
-  font-size: 34px;
+  font-size: 30px;
   margin-bottom: 12px;
 }
 .dashboard .banner:first-child .firstBox .content div p {

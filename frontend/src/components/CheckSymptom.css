@@ -97,4 +97,30 @@
     margin-bottom: 5px;
   }
   
+  /* Take Appointment button */
+.CheckSymptom .take-appointment-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+  margin-top: 10px; /* Adjust margin as needed */
+  text-decoration: none;
+  text-align: center;
   
+}
+
+.CheckSymptom .take-appointment-button:hover {
+  background-color: #0056b3; 
+}
+
+.CheckSymptom .take-appointment-button a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}

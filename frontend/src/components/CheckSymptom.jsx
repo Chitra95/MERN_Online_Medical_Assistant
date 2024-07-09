@@ -77,6 +77,9 @@ const CheckSymptom = () => {
           </ul>
         </div>
       )}
+
+      <button className='take-appointment-button' >    <a href="/appointment">Take Appointment</a> </button>
+      
     </div>
   );
 };
