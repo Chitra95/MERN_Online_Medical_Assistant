@@ -69,7 +69,7 @@ const CheckSymptom = () => {
       )}
       {assignedSpecialists.length > 0 && (
         <div className="results">
-          <h2>Assigned Specialists:</h2>
+          <h2>Suggested Specialist(s):</h2>
           <ul>
             {assignedSpecialists.map(specialist => (
               <li key={specialist}>{specialist}</li>
