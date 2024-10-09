@@ -85,7 +85,8 @@ export const postAppointment = catchAsyncErrors(async (req, res, next) => {
 
 // Get all appointments (admin only)
 export const getAllAppointments = catchAsyncErrors(async (req, res, next) => {
-    const appointments = await Appointment.find();
+    const appointments = await Appointment.find({},null,
+        {sort:{'createdAt': -1}});
 
     res.status(200).json({
         success: true,
