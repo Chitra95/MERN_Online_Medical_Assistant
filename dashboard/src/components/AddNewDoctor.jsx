@@ -1,8 +1,3 @@
-// start from 6hr 27min
-//6.43 line number 143
-
-
-
 import React, { useContext, useState } from 'react'
 import { Context } from '../main'
 import { Navigate, useNavigate } from 'react-router-dom'
@@ -96,7 +91,7 @@ const AddNewDoctor = () => {
       <section className="page">
 
       <div className='container form-component add-doctor-form' >
-     <img src="/logo.png" alt="logo" className='logo' /> 
+      <h1>MediConnect</h1>
      <h1 className='form-title'>REGISTER A NEW DOCTOR</h1>
 
      <form onSubmit={handleAddNewDoctor}>

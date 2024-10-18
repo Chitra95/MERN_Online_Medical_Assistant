@@ -1,5 +1,5 @@
 import express from "express"
-import {addNewAdmin, addNewDoctor, getAllDoctors, getUserDetails, login, logoutAdmin, logoutPatient, patientRegister} from "../controller/userController.js" //dont forget .js
+import {addNewAdmin, addNewDoctor, getAllDoctors, getUserDetails, login, logoutAdmin, logoutPatient, patientRegister} from "../controller/userController.js"                        // .js is important
 import {isAdminAuthenticated,isPatientAuthenticated} from "../middlewares/auth.js"
 
 const router=express.Router()

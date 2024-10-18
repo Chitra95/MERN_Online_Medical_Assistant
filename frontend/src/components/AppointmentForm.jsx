@@ -155,7 +155,6 @@ const AppointmentForm = () => {
       </div>
 
         <textarea rows="10" value={address} onChange={(e)=>setAddress(e.target.value)} placeholder='Address'  />
-          {/* **************5hr16min************** */}
 
 
       <div 

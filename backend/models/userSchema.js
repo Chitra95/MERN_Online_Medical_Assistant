@@ -64,7 +64,78 @@ const userSchema=new mongoose.Schema({
 
 
 
-//method for hashing in future
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//method for hashing -if
 userSchema.pre("save",async function (next) {
     if (!this.isModified("password")){
         next();

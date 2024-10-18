@@ -41,7 +41,6 @@ const Login = () => {
     <div className='container form-component login-form'>
       <h2>Sign In</h2>
       <p>Please Login to Continue</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe laboriosam molestiae quasi commodi, nam ipsa?</p>
 
       <form onSubmit={handleLogin}>
         <input 

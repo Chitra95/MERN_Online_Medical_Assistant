@@ -85,7 +85,7 @@ const handleUpdateStatus = async(appointmentId,status)=>{
                     {user && `${user.firstName} ${user.lastName}`}
                   </h5>
                 </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, reiciendis sapiente. Quasi, quis. Excepturi iure reiciendis laudantium.</p>
+                <b>Welcome to MediConnect.</b>
               </div>
             </div>
 
